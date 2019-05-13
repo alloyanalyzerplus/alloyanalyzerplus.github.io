@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>AlloyAnalyzer Plus</title>
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <h1> The AlloyAnalyzer Plus IDE</h1>
+        <h2><b>Coming soon:</b> latest stable release of the AlloyAnalyzer Plus IDE and tutorials for the new verification and synthesis supported features. In the meantime, check out the useful links section for related projects.</h2>
+      </div>
+    </section>
+	
+	<section>
+      <div class="usefullinks">
+        <h3 class="subheader">AlloyAnalyzer Plus Links</h3>
+        <table>
+          <tr>
+            <th>Tool</th>
+            <th>Description</th>
+          </tr>		  
+		  <tr>
+            <td>
+   Latest stable releae</a>
+	</td>
+            <td>
+              <i>Coming Soon</i>
+            </td>
+          </tr>
+		  
+
+        </table>
+      </div>
+    </section>
+   
+    <section>
+      <div class="usefullinks">
+        <h3 class="subheader">Useful Links</h3>
+        <table>
+          <tr>
+            <th>Tool</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td>
+    <a href="http://alloytools.org/download.html">Alloy Analyzer</a>
+	</td>
+            <td>
+              <b>Alloy 4</b> is a self-contained executable, which includes the Kodkod model finder and a variety of SAT solvers, as well as the standard Alloy library and a collection of tutorial examples. The same jar file can be incorporated into other applications to use Alloy as an API, and includes the source code. See the release notes for details of new features. To execute, simply double-click on the jar file, or type java -jar alloy4.jar in a console.
+            </td>
+          </tr>
+		  
+		  <tr>
+            <td>
+    <a href="https://sites.google.com/view/aunitanalyzer">AUnit Analyzer</a>
+	</td>
+            <td>
+              <b>AUnit Analyzer</b> is an extension to the Alloy Analyzer which provides support for AUnit. AUnit is a testing framework designed for the Alloy language. AUnit establishes the definition of a test case, test execution, and coverage requirements in the context of Alloy and its declarative execution environment.
+            </td>
+          </tr>
+		  
+		  <tr>
+            <td>
+    <a href="https://github.com/kaiyuanw/MuAlloy">MuAlloy</a>
+	</td>
+            <td>
+              <b>MuAlloy</b> is a command line tool built on top of Alloy4.2. The tool provides basic features to mutate an Alloy model at its AST level and generate non-equivalent mutant models. For each non-equivalent mutant model, MuAlloy is able to generate an Alloy instance that kills it. All mutant killing instances can be encoded as AUnit tests and saved on the disk. MuAlloy can also run mutation testing on any model given some tests.
+            </td>
+          </tr>
+		  
+		  <tr>
+            <td>
+    <a href="https://github.com/kaiyuanw/ASketch">ASketch</a>
+	</td>
+            <td>
+              <b>ASketch</b> is a command line tool built on top of Alloy5.0. Given a partial Alloy model, a candidate fragment generator, and a set of AUnit tests that capture the desired model properties, ASketch is able to fill holes with the corresponding candidate fragments and makes the completed model satisfy all AUnit tests. Internally, ASketch automatically encodes the sketching problem into a meta Alloy model and invokes the Alloy analyzer to search for solutions.
+            </td>
+          </tr>
+		  
+		  <tr>
+            <td>
+    <a href="https://github.com/kaiyuanw/ARepair">ARepair</a>
+	</td>
+            <td>
+              <b>ARepair</b> is a command line tool built on top of Alloy4.2. Given a faulty Alloy model (potentially with multiple faults) and a set of AUnit tests that capture the desired model properties, ARepair is able to repair the model so that all AUnit tests. Internally, ARepair has three main components: a fault locator that is able to locate faults, a code generator that generate Alloy code fragments and a synthesizer that implements different search strategies to search for patches that make all tests pass.
+            </td>
+          </tr>
+
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
